@@ -8,7 +8,7 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('Test title of the recipe constructor', 'Recipe description for vegan butternut squash soup', 'http://vegangela.com/wp-content/uploads/2011/05/IMG_6615_1000.jpg')
+    new Recipe('Test title of the recipe constructor', 'Recipe description for vegan butternut squash soup', 'http://vegnews.com/web/uploads/asset/590/file/vegan.jpg')
   ];
 
   ngOnInit() {
